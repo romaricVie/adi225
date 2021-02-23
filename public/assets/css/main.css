@@ -1,0 +1,50 @@
+/*Page css*/
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+#main-content
+{
+	margin-top: 75px;
+}
+
+footer
+{
+	background-color: #333;
+	color: #fff;
+	position: relative;
+	margin-top: 100px;
+	padding: 90px; 
+}
+
+
+nav li a
+{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/*#e7480f; orange*/
+
+.divider
+{
+	width:200px;
+	height:5px;
+	background-color:#e7480f;
+	margin:0 auto;
+}
+
+.active
+{
+	background-color: rgb(21,10,245);
+
+}
+#adi
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+	color: #e7480f;
+}
