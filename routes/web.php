@@ -15,7 +15,7 @@ use App\Http\Controllers\ContactController;
 */
 
 
-
+Route::view('/info','pages.info')->name('info');
 Route::view('/','pages.welcome')->name('welcome');
 Route::view('/a-propos', 'pages.about')->name('about');
 Route::view('/nous-contacter', 'pages.contact')->name('contact');
